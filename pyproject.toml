@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "Crypto portfolio & tax tracker for Spain"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "requests>=2.32.5",
+]
 
 [dependency-groups]
 dev = [
